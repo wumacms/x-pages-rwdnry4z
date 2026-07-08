@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于我们 - 林克时间</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: system-ui, -apple-system, sans-serif; }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+  <header class="border-b border-gray-100 bg-white/80 backdrop-blur-sm sticky top-0 z-20 w-full" style="background-color: #ffffff;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16 md:h-20">
+      <!-- Logo 区域 -->
+      <div class="flex items-center gap-3 shrink-0">
+        <img class="w-8 h-8 rounded-lg shadow-sm" src="https://placehold.co/32x32/4F46E5/white?text&#x3D;Logo" alt="林克时间" onerror="this.src='https://placehold.co/32x32/4F46E5/white?text=Logo';">
+        <span class="text-xl font-semibold text-gray-800 tracking-tight">林克时间</span>
+      </div>
+
+      <!-- 导航菜单区 -->
+      <nav class="hidden md:flex items-center space-x-1 lg:space-x-2">
+        <div class="relative group">
+          <a href="/" class="px-3 py-2 text-gray-600 hover:text-indigo-600 text-sm font-medium transition-colors rounded-lg hover:bg-gray-50">首页</a>
+        </div>
+        <div class="relative group">
+          <a href="/about" class="px-3 py-2 text-gray-600 hover:text-indigo-600 text-sm font-medium transition-colors rounded-lg hover:bg-gray-50">关于我们</a>
+        </div>
+      </nav>
+
+      <!-- 右侧 CTA 按钮 -->
+      <div class="flex items-center gap-3">
+        <a href="#" target="_self" class="hidden sm:inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-medium px-5 py-2 rounded-full transition-colors shadow-sm">开始免费试用</a>
+        <!-- 移动端菜单占位 -->
+        <button class="md:hidden p-2 rounded-lg text-gray-500 hover:bg-gray-100">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+  <main class="flex-1">
+    <section class="relative pt-16 pb-20 overflow-hidden w-full" style="background-color: #ffffff;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto">
+      <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900 mb-6">关于我们</h1>
+      <p class="text-lg text-gray-600 mb-10">安全、高效、可定制——专为现代企业打造的智能聊天平台，集成工作流与数据洞察。</p>
+      <div class="flex flex-wrap gap-4 justify-center">
+        <a href="#" target="_self"
+           class="bg-indigo-600 hover:bg-indigo-700 text-white shadow-md px-6 py-3 rounded-full font-medium transition duration-200">
+          开始免费试用
+        </a>
+        <a href="#" target="_self"
+           class="bg-white border border-gray-300 hover:border-gray-400 text-gray-700 shadow-sm px-6 py-3 rounded-full font-medium transition duration-200">
+          联系销售
+        </a>
+      </div>
+    </div>
+    <div class="mt-16 max-w-5xl mx-auto">
+      <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib&#x3D;rb-4.0.3&amp;auto&#x3D;format&amp;fit&#x3D;crop&amp;w&#x3D;1600&amp;q&#x3D;80" alt="ChatFlow 界面截图" class="rounded-xl shadow-2xl border border-gray-200 w-full h-auto object-cover">
+    </div>
+  </div>
+</section>
+<section class="py-20 w-full" style="background-color: #ffffff;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div class="order-2 md:order-1">
+        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib&#x3D;rb-4.0.3&amp;auto&#x3D;format&amp;fit&#x3D;crop&amp;w&#x3D;1200&amp;q&#x3D;80" alt="公司简介" class="rounded-2xl shadow-lg border border-gray-200 w-full h-auto object-cover">
+      </div>
+      <div class="order-1 md:order-2">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">公司简介</h2>
+        <p class="text-gray-600 text-lg leading-relaxed">打破信息孤岛，通过话题群组、私聊和富媒体分享，让每个人都能快速找到所需信息。集成企业目录，一键联系同事。</p>
+        <div class="mt-6 flex gap-4 text-sm text-indigo-600 font-medium">
+          <span class="flex items-center gap-1">✓ 端到端加密</span>
+          <span class="flex items-center gap-1">✓ 无限历史记录</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="text-gray-300 py-8 w-full" style="background-color: #111827;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
+    <div class="flex items-center gap-2">
+      <img src="https://placehold.co/200x200?text&#x3D;Logo" alt="林克时间" class="h-6 w-auto object-contain">
+      <span class="font-semibold text-white">林克时间</span>
+    </div>
+    <div class="text-sm mt-4 md:mt-0">
+      © 2026 林克时间. All rights reserved.
+    </div>
+  </div>
+</footer>
+  <script>
+    document.addEventListener('click', function(e) {
+      const a = e.target.closest('a');
+      if (a) {
+        const href = a.getAttribute('href');
+        // 如果是站内链接，则拦截默认跳转并通知父窗口
+        if (href && href.startsWith('/')) {
+          e.preventDefault();
+          window.parent.postMessage({ type: 'preview_navigate', path: href }, '*');
+        }
+      }
+    });
+  </script>
+</body>
+</html>
