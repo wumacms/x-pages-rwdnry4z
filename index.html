@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>首页 - 林克时间</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: system-ui, -apple-system, sans-serif; }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+  <header class="border-b border-gray-100 bg-white/80 backdrop-blur-sm sticky top-0 z-20 w-full" style="background-color: #ffffff;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16 md:h-20">
+      <!-- Logo 区域 -->
+      <div class="flex items-center gap-3 shrink-0">
+        <img class="w-8 h-8 rounded-lg shadow-sm" src="https://placehold.co/32x32/4F46E5/white?text&#x3D;Logo" alt="林克时间" onerror="this.src='https://placehold.co/32x32/4F46E5/white?text=Logo';">
+        <span class="text-xl font-semibold text-gray-800 tracking-tight">林克时间</span>
+      </div>
+
+      <!-- 导航菜单区 -->
+      <nav class="hidden md:flex items-center space-x-1 lg:space-x-2">
+        <div class="relative group">
+          <a href="/" class="px-3 py-2 text-gray-600 hover:text-indigo-600 text-sm font-medium transition-colors rounded-lg hover:bg-gray-50">首页</a>
+        </div>
+        <div class="relative group">
+          <a href="/about" class="px-3 py-2 text-gray-600 hover:text-indigo-600 text-sm font-medium transition-colors rounded-lg hover:bg-gray-50">关于我们</a>
+        </div>
+      </nav>
+
+      <!-- 右侧 CTA 按钮 -->
+      <div class="flex items-center gap-3">
+        <a href="#" target="_self" class="hidden sm:inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-medium px-5 py-2 rounded-full transition-colors shadow-sm">开始免费试用</a>
+        <!-- 移动端菜单占位 -->
+        <button class="md:hidden p-2 rounded-lg text-gray-500 hover:bg-gray-100">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+  <main class="flex-1">
+    <section class="relative pt-16 pb-20 overflow-hidden w-full" style="background-color: #ffffff;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto">
+      <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900 mb-6">企业级即时通讯<br>让协作更快一步</h1>
+      <p class="text-lg text-gray-600 mb-10">安全、高效、可定制——专为现代企业打造的智能聊天平台，集成工作流与数据洞察。</p>
+      <div class="flex flex-wrap gap-4 justify-center">
+        <a href="#" target="_blank"
+           class="bg-indigo-600 hover:bg-indigo-700 text-white shadow-md px-6 py-3 rounded-full font-medium transition duration-200">
+          开始试用
+        </a>
+        <a href="#" target="_self"
+           class="bg-white border border-gray-300 hover:border-gray-400 text-gray-700 shadow-sm px-6 py-3 rounded-full font-medium transition duration-200">
+          联系销售
+        </a>
+      </div>
+    </div>
+    <div class="mt-16 max-w-5xl mx-auto">
+      <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib&#x3D;rb-4.0.3&amp;auto&#x3D;format&amp;fit&#x3D;crop&amp;w&#x3D;1600&amp;q&#x3D;80" alt="ChatFlow 界面截图" class="rounded-xl shadow-2xl border border-gray-200 w-full h-auto object-cover">
+    </div>
+  </div>
+</section>
+<section class="py-20 w-full" style="background-color: #f9fafb;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-gray-900">专为商务打造的特性</h2>
+      <p class="text-gray-600 mt-2">从安全到效率，面面俱到</p>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+        <div class="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center text-indigo-700 mb-4 text-xl">🔒</div>
+        <h3 class="font-semibold text-gray-900 mb-2">企业级安全</h3>
+        <p class="text-gray-500 text-sm">端到端加密、SSO、DLP策略，满足合规需求。</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+        <div class="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center text-indigo-700 mb-4 text-xl">⚡</div>
+        <h3 class="font-semibold text-gray-900 mb-2">实时同步</h3>
+        <p class="text-gray-500 text-sm">毫秒级延迟，跨设备已读回执与状态。</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+        <div class="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center text-indigo-700 mb-4 text-xl">🧩</div>
+        <h3 class="font-semibold text-gray-900 mb-2">无限集成</h3>
+        <p class="text-gray-500 text-sm">连接200+企业应用，自定义机器人。</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+        <div class="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center text-indigo-700 mb-4 text-xl">📊</div>
+        <h3 class="font-semibold text-gray-900 mb-2">分析洞察</h3>
+        <p class="text-gray-500 text-sm">团队活跃度、响应时间数据可视化。</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-20 w-full" style="background-color: #ffffff;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div class="order-2 md:order-1">
+        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib&#x3D;rb-4.0.3&amp;auto&#x3D;format&amp;fit&#x3D;crop&amp;w&#x3D;1200&amp;q&#x3D;80" alt="无缝沟通，跨越部门" class="rounded-2xl shadow-lg border border-gray-200 w-full h-auto object-cover">
+      </div>
+      <div class="order-1 md:order-2">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">无缝沟通，跨越部门</h2>
+        <p class="text-gray-600 text-lg leading-relaxed">打破信息孤岛，通过话题群组、私聊和富媒体分享，让每个人都能快速找到所需信息。集成企业目录，一键联系同事。</p>
+        <div class="mt-6 flex gap-4 text-sm text-indigo-600 font-medium">
+          <span class="flex items-center gap-1">✓ 端到端加密</span>
+          <span class="flex items-center gap-1">✓ 无限历史记录</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-20 w-full" style="background-color: #f9fafb;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">深度集成工作流</h2>
+        <p class="text-gray-600 text-lg leading-relaxed">与您使用的工具无缝连接：Jira、GitLab、Google Drive、Salesforce。在聊天中创建任务、分享文件、触发自动化。</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <span class="bg-indigo-50 text-indigo-700 px-4 py-2 rounded-full text-sm font-medium">Slack 导入</span>
+          <span class="bg-indigo-50 text-indigo-700 px-4 py-2 rounded-full text-sm font-medium">API 开放</span>
+        </div>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib&#x3D;rb-4.0.3&amp;auto&#x3D;format&amp;fit&#x3D;crop&amp;w&#x3D;1200&amp;q&#x3D;80" alt="深度集成工作流" class="rounded-2xl shadow-lg border border-gray-200 w-full h-auto object-cover">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-20 w-full" style="background-color: #ffffff;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl font-bold text-gray-900 mb-3">全平台一致体验</h2>
+    <p class="text-gray-600 text-lg max-w-2xl mx-auto">无论是在桌面、网页还是移动端，消息实时同步，操作流畅如一。</p>
+    <div class="mt-12">
+      <img src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib&#x3D;rb-4.0.3&amp;auto&#x3D;format&amp;fit&#x3D;crop&amp;w&#x3D;1600&amp;q&#x3D;80" alt="Devices View" class="rounded-2xl shadow-xl border border-gray-200 w-full h-auto object-cover max-w-5xl mx-auto">
+    </div>
+  </div>
+</section>
+<section class="py-16 text-white w-full" style="background-color: #4f46e5;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
+      <div>
+        <div class="text-4xl font-bold">500+</div>
+        <div class="text-indigo-100 mt-2">企业客户</div>
+      </div>
+      <div>
+        <div class="text-4xl font-bold">98%</div>
+        <div class="text-indigo-100 mt-2">客户留存率</div>
+      </div>
+      <div>
+        <div class="text-4xl font-bold">20M+</div>
+        <div class="text-indigo-100 mt-2">日消息量</div>
+      </div>
+      <div>
+        <div class="text-4xl font-bold">24/7</div>
+        <div class="text-indigo-100 mt-2">技术支持</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-20 w-full" style="background-color: #ffffff;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-gray-900">核心团队</h2>
+      <p class="text-gray-600 mt-2">来自全球顶尖企业的协作专家</p>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="text-center">
+        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w&#x3D;400" alt="张伟" class="w-32 h-32 rounded-full mx-auto object-cover shadow-md border-2 border-white">
+        <h3 class="font-semibold mt-4">张伟</h3>
+        <p class="text-gray-500 text-sm">CEO &amp; 创始人</p>
+      </div>
+      <div class="text-center">
+        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w&#x3D;400" alt="陈敏" class="w-32 h-32 rounded-full mx-auto object-cover shadow-md border-2 border-white">
+        <h3 class="font-semibold mt-4">陈敏</h3>
+        <p class="text-gray-500 text-sm">CTO</p>
+      </div>
+      <div class="text-center">
+        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w&#x3D;400" alt="王磊" class="w-32 h-32 rounded-full mx-auto object-cover shadow-md border-2 border-white">
+        <h3 class="font-semibold mt-4">王磊</h3>
+        <p class="text-gray-500 text-sm">产品总监</p>
+      </div>
+      <div class="text-center">
+        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w&#x3D;400" alt="李莉" class="w-32 h-32 rounded-full mx-auto object-cover shadow-md border-2 border-white">
+        <h3 class="font-semibold mt-4">李莉</h3>
+        <p class="text-gray-500 text-sm">设计负责人</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-20 w-full" style="background-color: #f9fafb;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-gray-900">灵活定价</h2>
+      <p class="text-gray-600 mt-2">按需选择，无隐藏费用</p>
+    </div>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-200 relative">
+        
+        <h3 class="text-xl font-semibold">基础版</h3>
+        <p class="text-4xl font-bold mt-4">¥49<span class="text-base font-normal text-gray-500">/月/人</span></p>
+        <div class="mt-6 space-y-3 text-gray-600 whitespace-pre-line">
+          ✓ 消息历史1年
+✓ 10GB 文件存储
+✓ 基础集成
+✓ 基础集成2
+        </div>
+        <a href="#" target="_self" class="mt-8 block w-full text-center border border-indigo-600 text-indigo-600 hover:bg-indigo-50 py-2 rounded-full font-medium transition">选择基础版</a>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-2 border-indigo-600  relative">
+        <span class="absolute top-0 right-8 bg-indigo-600 text-white px-3 py-1 text-sm rounded-b-lg">最受欢迎</span>
+        <h3 class="text-xl font-semibold">商业版</h3>
+        <p class="text-4xl font-bold mt-4">¥99<span class="text-base font-normal text-gray-500">/月/人</span></p>
+        <div class="mt-6 space-y-3 text-gray-600 whitespace-pre-line">
+          ✓ 无限历史
+✓ 100GB 存储
+✓ 所有集成 + API
+✓ 高级支持
+        </div>
+        <a href="#" target="_self" class="mt-8 block w-full text-center bg-indigo-600 text-white hover:bg-indigo-700 shadow py-2 rounded-full font-medium transition">选择商业版</a>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-200 relative">
+        
+        <h3 class="text-xl font-semibold">企业版</h3>
+        <p class="text-4xl font-bold mt-4">定制<span class="text-base font-normal text-gray-500"></span></p>
+        <div class="mt-6 space-y-3 text-gray-600 whitespace-pre-line">
+          ✓ 本地部署选项
+✓ 无限存储
+✓ 专属客户成功
+✓ SSO/合规
+        </div>
+        <a href="#" target="_self" class="mt-8 block w-full text-center border border-indigo-600 text-indigo-600 hover:bg-indigo-50 py-2 rounded-full font-medium transition">联系销售</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-20 w-full" style="background-color: #ffffff;">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">常见问题</h2>
+    <div class="space-y-6">
+      <div class="border-b border-gray-200 pb-6">
+        <h3 class="text-lg font-semibold text-gray-800 mb-2">支持本地部署吗？</h3>
+        <p class="text-gray-600">是的，企业版支持私有云或本地服务器部署，满足最高安全合规要求。</p>
+      </div>
+      <div class="border-b border-gray-200 pb-6">
+        <h3 class="text-lg font-semibold text-gray-800 mb-2">可以试用多久？</h3>
+        <p class="text-gray-600">所有新用户均可享受30天全功能免费试用，无需信用卡。</p>
+      </div>
+      <div class="border-b border-gray-200 pb-6">
+        <h3 class="text-lg font-semibold text-gray-800 mb-2">数据存储在哪里？</h3>
+        <p class="text-gray-600">数据存储在云端的独立数据库，可选中国大陆或海外区域，符合当地法规。</p>
+      </div>
+      <div class="border-b border-gray-200 pb-6">
+        <h3 class="text-lg font-semibold text-gray-800 mb-2">如何迁移现有聊天记录？</h3>
+        <p class="text-gray-600">我们提供专业迁移工具，支持从Slack、Teams等平台导入历史数据。</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-16 w-full" style="background-color: #4f46e5;">
+  <div class="max-w-3xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-white mb-4">立即提升团队协作效率</h2>
+    <p class="text-indigo-100 text-lg mb-8">加入数百家信任我们的企业，开启高效沟通之旅。</p>
+    <div class="flex flex-wrap gap-4 justify-center">
+      <a href="#" target="_self"
+         class="bg-white text-indigo-600 hover:bg-gray-100 px-6 py-3 rounded-full font-medium shadow-lg transition">
+        免费试用30天
+      </a>
+      <a href="#" target="_blank"
+         class="border border-white text-white hover:bg-indigo-500 px-6 py-3 rounded-full font-medium shadow-lg transition">
+        预约演示
+      </a>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="text-gray-300 py-8 w-full" style="background-color: #111827;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
+    <div class="flex items-center gap-2">
+      <img src="https://placehold.co/200x200?text&#x3D;Logo" alt="林克时间" class="h-6 w-auto object-contain">
+      <span class="font-semibold text-white">林克时间</span>
+    </div>
+    <div class="text-sm mt-4 md:mt-0">
+      © 2026 林克时间. All rights reserved.
+    </div>
+  </div>
+</footer>
+  <script>
+    document.addEventListener('click', function(e) {
+      const a = e.target.closest('a');
+      if (a) {
+        const href = a.getAttribute('href');
+        // 如果是站内链接，则拦截默认跳转并通知父窗口
+        if (href && href.startsWith('/')) {
+          e.preventDefault();
+          window.parent.postMessage({ type: 'preview_navigate', path: href }, '*');
+        }
+      }
+    });
+  </script>
+</body>
+</html>
